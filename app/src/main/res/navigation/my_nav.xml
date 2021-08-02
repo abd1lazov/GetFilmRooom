@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/listFilmsFragment">
+
+    <fragment
+        android:id="@+id/listFilmsFragment"
+        android:name="kg.geektech.hwfilmapiroom.ui.film_list.ListFilmsFragment"
+        android:label="fragment_list_films"
+        tools:layout="@layout/fragment_list_films" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="kg.geektech.hwfilmapiroom.ui.film_detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/roomFragment"
+        android:name="kg.geektech.hwfilmapiroom.ui.room.RoomFragment"
+        android:label="fragment_room"
+        tools:layout="@layout/fragment_room" />
+</navigation>
