@@ -18,8 +18,10 @@
 
     <Button
         android:id="@+id/basket"
-        android:text="Show download"
+        android:text="Show downloaded"
+        android:background="@drawable/show"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

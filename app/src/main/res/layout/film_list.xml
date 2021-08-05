@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -14,7 +14,6 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:text="Title" />
-
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/text_director_film"
         android:layout_width="wrap_content"
@@ -28,11 +27,8 @@
         android:id="@+id/image_save_to_room"
         android:layout_width="40dp"
         android:layout_height="30dp"
-        android:layout_gravity="end"
-        android:src="@drawable/ic_save"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="8dp"
-        />
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_save" />
 
     <View
         android:layout_width="match_parent"
@@ -40,4 +36,4 @@
         android:background="@color/black" />
 
 
-</LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
